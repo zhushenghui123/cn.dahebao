@@ -1,0 +1,8 @@
+# 运行 submission/ 与 recon/ 所需
+cryptography>=41          # AES-192-CBC / MD5 签名
+playwright>=1.40          # 驱动官方 H5（需另跑 playwright install chromium）
+
+# 说明：
+#   · 静态分析另需 apktool / jadx / adb（非 Python 依赖）
+#   · tools/check_report.py、tools/probe_endpoint_exists.py 只用标准库
+#   · tools/h5_walk.py 需要 playwright（与上面的 H5 依赖同一份）

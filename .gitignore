@@ -1,0 +1,23 @@
+# 运行时/个人文件 —— 永不入库
+.token
+identity.json
+submit_ledger.json
+*_out.json
+!样例-trajectory_out.json
+!policy_out.json
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# 抓包与产物
+*.pcap
+*.har
+dumps/
+apktool_out/
+jadx_out/
+
+# 系统
+.DS_Store

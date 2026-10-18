@@ -1,0 +1,451 @@
+{
+ "fetchedAt": "2026-10-15 22:45:47",
+ "rules": {
+  "school": "河南牧业经济学院",
+  "schoolId": 5,
+  "validWindow": "06:00:00 ~ 22:30:00",
+  "dayValidTimes": 1,
+  "targetMileageKm": 2.5,
+  "paceRangeMinPerKm": [
+   3,
+   10
+  ],
+  "sexAssumed": "male"
+ },
+ "task": {
+  "semesterTimes": 26,
+  "semesterMileage": 65.0,
+  "myTimes": 0,
+  "myMileage": 0
+ },
+ "semester": {
+  "id": 5,
+  "name": "2026-2027第一学期",
+  "start": "2026-10-08 00:00:00",
+  "end": "2026-12-13 23:59:59"
+ },
+ "student": {
+  "schoolId": 5,
+  "sex": "1",
+  "name": "***",
+  "sequence": "***",
+  "department": "信息工程学院",
+  "clazz": "25软件12"
+ },
+ "geo": {
+  "campuses": [
+   {
+    "id": 7,
+    "name": "英才校区",
+    "fenceNum": 1
+   },
+   {
+    "id": 8,
+    "name": "龙子湖校区",
+    "fenceNum": 1
+   },
+   {
+    "id": 9,
+    "name": "北林校区",
+    "fenceNum": 1
+   }
+  ],
+  "fences": [
+   {
+    "id": 16,
+    "campusId": 7,
+    "name": "围栏",
+    "type": 1,
+    "vertices": 6,
+    "nested": false
+   },
+   {
+    "id": 17,
+    "campusId": 8,
+    "name": "学校围栏",
+    "type": 1,
+    "vertices": 8,
+    "nested": false
+   },
+   {
+    "id": 18,
+    "campusId": 9,
+    "name": "学校围栏",
+    "type": 1,
+    "vertices": 15,
+    "nested": false
+   }
+  ]
+ },
+ "raw": {
+  "personalInfo": {
+   "code": 0,
+   "msg": "OK",
+   "time": 1792075539,
+   "data": {
+    "id": "***",
+    "jpaVersion": 1,
+    "createdDate": "***",
+    "schoolId": 5,
+    "bizType": 1,
+    "userId": "***",
+    "sequence": "***",
+    "name": "***",
+    "ddNickName": "",
+    "avatar": "***",
+    "sex": "1",
+    "department": "信息工程学院",
+    "major": "软件工程",
+    "clazz": "25软件12",
+    "studentTeacherName": "***",
+    "studentTeacher": "***"
+   }
+  },
+  "schoolConfig": {
+   "code": 0,
+   "msg": "OK",
+   "time": 1792075540,
+   "data": {
+    "id": 5,
+    "jpaVersion": 6,
+    "createdDate": "2026-09-07 09:22:11",
+    "name": "河南牧业经济学院",
+    "dayStartTime": "06:00:00",
+    "dayEndTime": "22:30:00",
+    "maleMileage": 2.5,
+    "femaleMileage": 2.0,
+    "maleMinPace": 10,
+    "maleMaxPace": 3,
+    "femaleMinPace": 10,
+    "femaleMaxPace": 3,
+    "dayValidTimes": 1,
+    "dayStartTimeFormat": "06:00",
+    "dayEndTimeFormat": "22:30"
+   }
+  },
+  "currSemester": {
+   "code": 0,
+   "msg": "OK",
+   "time": 1792075541,
+   "data": {
+    "id": 5,
+    "jpaVersion": 3,
+    "createdDate": "2026-09-07 09:26:18",
+    "schoolId": 5,
+    "name": "2026-2027第一学期",
+    "start": "2026-10-08 00:00:00",
+    "end": "2026-12-13 23:59:59"
+   }
+  },
+  "semesterTask": {
+   "code": 0,
+   "msg": "OK",
+   "time": 1792075542,
+   "data": {
+    "semesterTimes": 26,
+    "semesterMileage": 65.0,
+    "myTimes": 0,
+    "myMileage": 0
+   }
+  },
+  "campusList": {
+   "code": 0,
+   "msg": "OK",
+   "time": 1792075543,
+   "data": [
+    {
+     "id": 7,
+     "jpaVersion": 1,
+     "createdDate": "2026-09-07 09:23:52",
+     "schoolId": 5,
+     "name": "英才校区",
+     "lngLat": "113.641356,34.86219",
+     "fenceNum": 1
+    },
+    {
+     "id": 8,
+     "jpaVersion": 0,
+     "createdDate": "2026-09-07 09:32:15",
+     "schoolId": 5,
+     "name": "龙子湖校区",
+     "lngLat": "113.814915,34.803795",
+     "fenceNum": 1
+    },
+    {
+     "id": 9,
+     "jpaVersion": 0,
+     "createdDate": "2026-09-07 09:32:38",
+     "schoolId": 5,
+     "name": "北林校区",
+     "lngLat": "113.686727,34.803489",
+     "fenceNum": 1
+    }
+   ]
+  },
+  "schoolList": {
+   "code": 0,
+   "msg": "OK",
+   "time": 1792075544,
+   "data": [
+    {
+     "id": 2,
+     "jpaVersion": 43,
+     "schoolId": 2,
+     "name": "河南开封科技传媒学院"
+    },
+    {
+     "id": 3,
+     "jpaVersion": 56,
+     "schoolId": 3,
+     "name": "河南日报社"
+    },
+    {
+     "id": 5,
+     "jpaVersion": 6,
+     "createdDate": "2026-09-07 09:22:11",
+     "name": "河南牧业经济学院"
+    },
+    {
+     "id": 6,
+     "jpaVersion": 2,
+     "createdDate": "2026-09-07 09:39:18",
+     "name": "郑州大学"
+    },
+    {
+     "id": 7,
+     "jpaVersion": 2,
+     "createdDate": "2026-09-07 09:39:36",
+     "name": "河南大学"
+    },
+    {
+     "id": 8,
+     "jpaVersion": 0,
+     "createdDate": "2026-09-07 09:40:52",
+     "name": "河南农业大学"
+    },
+    {
+     "id": 9,
+     "jpaVersion": 2,
+     "createdDate": "2026-10-09 15:33:59",
+     "name": "河南水利与环境职业学院"
+    }
+   ]
+  },
+  "fenceList_7": {
+   "code": 0,
+   "msg": "OK",
+   "time": 1792075545,
+   "data": [
+    {
+     "id": 16,
+     "jpaVersion": 14,
+     "createdDate": "2026-09-07 09:25:03",
+     "campusId": 7,
+     "name": "围栏",
+     "type": 1,
+     "fence": [
+      [
+       113.637317,
+       34.86027
+      ],
+      [
+       113.646202,
+       34.860044
+      ],
+      [
+       113.645238,
+       34.862107
+      ],
+      [
+       113.644767,
+       34.864273
+      ],
+      [
+       113.637524,
+       34.864443
+      ],
+      [
+       113.637317,
+       34.86027
+      ]
+     ],
+     "checkInPoint": [
+      {
+       "center": [
+        113.641117,
+        34.860614
+       ],
+       "radius": 34
+      },
+      {
+       "center": [
+        113.637762,
+        34.860758
+       ],
+       "radius": 30
+      }
+     ]
+    }
+   ]
+  },
+  "fenceList_8": {
+   "code": 0,
+   "msg": "OK",
+   "time": 1792075546,
+   "data": [
+    {
+     "id": 17,
+     "jpaVersion": 6,
+     "createdDate": "2026-09-07 09:36:13",
+     "campusId": 8,
+     "name": "学校围栏",
+     "type": 1,
+     "fence": [
+      [
+       113.81539,
+       34.799042
+      ],
+      [
+       113.818513,
+       34.802976
+      ],
+      [
+       113.82025,
+       34.805439
+      ],
+      [
+       113.812437,
+       34.808822
+      ],
+      [
+       113.811138,
+       34.800807
+      ],
+      [
+       113.811281,
+       34.800729
+      ],
+      [
+       113.813105,
+       34.80016
+      ],
+      [
+       113.81539,
+       34.799042
+      ]
+     ],
+     "checkInPoint": [
+      {
+       "center": [
+        113.814378,
+        34.80532
+       ],
+       "radius": 52
+      },
+      {
+       "center": [
+        113.818683,
+        34.804542
+       ],
+       "radius": 30
+      }
+     ]
+    }
+   ]
+  },
+  "fenceList_9": {
+   "code": 0,
+   "msg": "OK",
+   "time": 1792075547,
+   "data": [
+    {
+     "id": 18,
+     "jpaVersion": 5,
+     "createdDate": "2026-09-07 09:37:10",
+     "campusId": 9,
+     "name": "学校围栏",
+     "type": 1,
+     "fence": [
+      [
+       113.685188,
+       34.800852
+      ],
+      [
+       113.685703,
+       34.80086
+      ],
+      [
+       113.685703,
+       34.800743
+      ],
+      [
+       113.687097,
+       34.800743
+      ],
+      [
+       113.687113,
+       34.803273
+      ],
+      [
+       113.687586,
+       34.803284
+      ],
+      [
+       113.687592,
+       34.802785
+      ],
+      [
+       113.687668,
+       34.80274
+      ],
+      [
+       113.68774,
+       34.802682
+      ],
+      [
+       113.687908,
+       34.802682
+      ],
+      [
+       113.687951,
+       34.802625
+      ],
+      [
+       113.688765,
+       34.802639
+      ],
+      [
+       113.688739,
+       34.805539
+      ],
+      [
+       113.685133,
+       34.805563
+      ],
+      [
+       113.685188,
+       34.800852
+      ]
+     ],
+     "checkInPoint": [
+      {
+       "center": [
+        113.688013,
+        34.803389
+       ],
+       "radius": 34
+      },
+      {
+       "center": [
+        113.688426,
+        34.802919
+       ],
+       "radius": 31
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "fails": []
+}
